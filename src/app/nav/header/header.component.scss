@@ -1,0 +1,22 @@
+.navbar {
+  animation: headerAnimation 2s linear forwards ;
+  .nav-link {
+    color: white;
+    &:hover {
+      color: gray;
+    }
+  }
+}
+
+
+
+@keyframes headerAnimation{
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 100%;
+    opacity: 100%;
+  }
+}
